@@ -13,7 +13,7 @@ import com.example.SpringPractice.entities.Category;
 import com.example.SpringPractice.services.CategoryService;
 
 @RestController
-@RequestMapping(value = "/categorys")
+@RequestMapping(value = "/categories")
 public class CategoryResource {
     
     @Autowired
